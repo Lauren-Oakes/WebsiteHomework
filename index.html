@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>My Website</title>
+</head>
+<body class="bg-gray-100 font-sans">
+
+    <!-- Navigation Bar -->
+    <header class="bg-purple-600 text-white p-4">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div class="text-xl font-bold">Lauren's Website</div>
+            <nav class="space-x-4">
+                <a href="#" class="hover:bg-purple-700 px-3 py-2 rounded">Home</a>
+                <a href="#about" class="hover:bg-purple-700 px-3 py-2 rounded">About</a>
+                <a href="#education" class="hover:bg-purple-700 px-3 py-2 rounded">My Education</a>
+                <a href="#contact" class="hover:bg-purple-700 px-3 py-2 rounded">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="max-w-7xl mx-auto p-6">
+
+        <!-- Welcome Section -->
+        <section class="bg-white rounded-lg shadow-lg p-6 mb-8">
+            <div class="flex items-center space-x-8">
+                <div class="flex-1">
+                    <h1 class="text-3xl font-semibold text-purple-600">Welcome to My Website</h1>
+                    <a href ="https://github.com/Lauren-Oakes" class="mt-4 inline-block bg-purple-600 text-white px-6 py-3 rounded-full hover:bg-purple-700">Explore my GitHub</a>
+                </div>
+                <div class="flex-none">
+                    <img src="ee73ea66-167b-4a9d-a743-ec44d5d8e8b8.JPG" alt="Grad Image" class="rounded-lg shadow-md max-w-xs">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <h2 class="text-2xl font-semibold text-purple-600">About Me</h2>
+                <p class="mt-4 text-gray-700">Hi my name is Lauren. I'm currently a specialist biomedical scientist in the NHS. I have a keen interest in Tech and am exploring my options for a career change.</p>
+            </div>
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <h2 class="text-2xl font-semibold text-purple-600">My Education</h2>
+                <p class="mt-4 text-gray-700">MSc. Biomedical sciences</p>
+                <p class="mt-4 text-gray-700">Currently enrolled in CODELancashire bootcamp</p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-purple-600 text-white p-6 mt-8">
+        <div class="max-w-7xl mx-auto flex flex-col items-center">
+            <h3 class="text-xl font-semibold">Contact Me</h3>
+            <p class="mt-2">Email: lvoakes3@gmail.com</p>
+            <p>Phone: 07891194972</p>
+            <div class="mt-4 space-x-4">
+                <a href="#" class="text-white hover:text-gray-300">Facebook</a>
+                <a href="#" class="text-white hover:text-gray-300">X</a>
+                <a href="#" class="text-white hover:text-gray-300">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
